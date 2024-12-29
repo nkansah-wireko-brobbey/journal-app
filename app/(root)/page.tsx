@@ -1,8 +1,14 @@
+import { Navbar } from '@/components/navbar'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>This is the home components</div>
+    <div className='min-h-screen flex flex-col'>
+        <Navbar />
+        <main>
+
+        </main>
+    </div>
   )
 }
 
